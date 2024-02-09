@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Roblox Studio Mod Manager")]
-[assembly: AssemblyDescription("An unofficial, open-source, custom bootstrapper for Roblox Studio that provides more flexibility to power users looking to make experimental customizations to Roblox Studio, and test new features before they are available to the public.")]
+[assembly: AssemblyTitle("RSMM(F)")]
+[assembly: AssemblyDescription("As you see, another fork of a bootstrapper originally made by MaximumADHD on GitHub")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Roblox Studio Mod Manager")]
+[assembly: AssemblyProduct("RSMM")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -33,6 +33,6 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.5.0.0")]
+[assembly: AssemblyFileVersion("1.5.0.0")]
 [assembly: NeutralResourcesLanguage("en-US")]

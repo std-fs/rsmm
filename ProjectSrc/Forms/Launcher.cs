@@ -45,8 +45,8 @@ namespace RobloxStudioModManager
 
             DialogResult result = MessageBox.Show
             (
-                "There's a new version of the mod manager available!\n" +
-                "This version is likely broken or no longer supported.\n" +
+                "New version of RSMM(F) Detected!\n" +
+                "Current RSMM is likely broken or outdated.\n" +
                 "Would you like to check it out?",
 
                 "Update available!",
@@ -236,7 +236,7 @@ namespace RobloxStudioModManager
                 AutoSize = true,
 
                 Font = new Font("Microsoft Sans Serif", 9.75f),
-                Text = "Editing flags can make Roblox Studio unstable, and could potentially corrupt your places and game data.\n\n" +
+                Text = "Editing FastFlags can make Roblox Studio unstable, and could potentially corrupt your places and game data.\n\n" +
                        "You should not edit them unless you are just experimenting with new features locally, and you know what you're doing.\n\n" +
                        "Are you sure you would like to continue?",
 
@@ -247,13 +247,13 @@ namespace RobloxStudioModManager
             var yes = new Button()
             {
                 Size = new Size(100, 23),
-                Text = "Yes",
+                Text = "Hell yea",
             };
 
             var no = new Button()
             {
                 Size = new Size(100, 23),
-                Text = "No",
+                Text = "Damn, No thanks",
             };
 
             yes.Click += (sender, e) =>

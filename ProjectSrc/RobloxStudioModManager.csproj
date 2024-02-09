@@ -7,8 +7,8 @@
     <ProjectGuid>{FAD2621F-B280-4D6D-A260-F410C5B06E0C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RobloxStudioModManager</RootNamespace>
-    <AssemblyName>RobloxStudioModManager</AssemblyName>
+    <RootNamespace>RSMMFork</RootNamespace>
+    <AssemblyName>RSMMForkr</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -25,11 +25,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <SupportUrl>https://www.twitter.com/MaxGee1019</SupportUrl>
-    <ProductName>Roblox Studio Mod Manager</ProductName>
-    <PublisherName>CloneTrooper1019</PublisherName>
+    <SupportUrl>https://www.roblox.com/users/5492610888/profile</SupportUrl>
+    <ProductName>RSMM Fork (std-fs)</ProductName>
+    <PublisherName>std-fs</PublisherName>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>1.5.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>

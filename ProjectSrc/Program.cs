@@ -14,13 +14,13 @@ namespace RobloxStudioModManager
     static class Program
     {
         public const string RepoBranch = "main";
-        public const string RepoOwner = "MaximumADHD";
-        public const string RepoName = "Roblox-Studio-Mod-Manager";
+        public const string RepoOwner = "std-fs";
+        public const string RepoName = "rsmm";
 
-        public const string ReleaseTag = "v2023.11.02";
+        public const string ReleaseTag = "v2030.12.25";
         public static readonly string BaseConfigUrl = $"https://raw.githubusercontent.com/{RepoOwner}/{RepoName}/{RepoBranch}/Config/";
 
-        public static readonly RegistryKey LegacyRegistry = Registry.CurrentUser.GetSubKey("SOFTWARE", "Roblox Studio Mod Manager");
+        public static readonly RegistryKey LegacyRegistry = Registry.CurrentUser.GetSubKey("SOFTWARE", "RSMM");
         public static readonly CultureInfo Format = CultureInfo.InvariantCulture;
 
         public const StringComparison StringFormat = StringComparison.Ordinal;
@@ -129,7 +129,7 @@ namespace RobloxStudioModManager
         {
             // Initialize application state.
             var localAppData = Environment.GetEnvironmentVariable("localappdata");
-            RootDir = Path.Combine(localAppData, "Roblox Studio Mod Manager");
+            RootDir = Path.Combine(localAppData, "RSMM");
 
             if (!Directory.Exists(RootDir))
                 Directory.CreateDirectory(RootDir);
@@ -150,7 +150,7 @@ namespace RobloxStudioModManager
             }
 
             try
-            {
+            { 
                 State = JsonConvert.DeserializeObject<ModManagerState>(json);
             }
             catch

@@ -22,10 +22,10 @@ jobs:
       run: dotnet restore
 
     - name: Building
-      run: dotnet build --no-restore .\ProjectSrc\RobloxStudioModManager.csproj
+      run: dotnet build --no-restore
 
     - name: Publishing
-      run: dotnet publish -p:PublishSingleFile=true-r win-x64 -c ${{ matrix.configuration }} --self-contained false .\ProjectSrc\RobloxStudioModManager.csproj
+      run: dotnet publish -p:PublishSingleFile=true-r win-x64 -c ${{ matrix.configuration }} --self-contained false .\ProjectSrc\RobloxStudioModManager.sln
 
     - name: Uploading Artifact
       uses: actions/upload-artifact@v4

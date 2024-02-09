@@ -118,7 +118,7 @@
             this.Name = "BootstrapperForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Roblox Studio Bootstrapper";
+            this.Text = "RSMM(B)";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BootstrapperForm_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BootstrapperForm_FormClosed);

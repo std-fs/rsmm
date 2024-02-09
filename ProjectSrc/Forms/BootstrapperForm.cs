@@ -79,11 +79,11 @@ namespace RobloxStudioModManager
                 {
                     check = MessageBox.Show
                     (
-                        "Roblox Studio is out of date!\n"
+                        "RSMM(F) is out of date!\n"
                         + updateReason +
                         "\nWould you like to update now?",
 
-                        "Out of date!",
+                        "Process is out of date!",
                         MessageBoxButtons.YesNo,
                         MessageBoxIcon.Warning
                     );

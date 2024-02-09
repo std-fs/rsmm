@@ -21,7 +21,8 @@ namespace RobloxStudioModManager
                 if (version != "v0")
                 {
                     string errorMsg = $"Unexpected package manifest version: {version} (expected v0!)\n" +
-                                       "Please contact MaximumADHD if you see this error.";
+                                       "To mention, you are using a Fork Version!\," +
+                                       " Visit MaximumADHD's Repo ";
 
                     throw new NotSupportedException(errorMsg);
                 }

@@ -59,7 +59,7 @@
             // 
             // manageMods
             // 
-            this.manageMods.AccessibleName = "Open Mod Folder";
+            this.manageMods.AccessibleName = "Open Modifications Folder";
             this.manageMods.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.manageMods.Cursor = System.Windows.Forms.Cursors.Default;
             this.manageMods.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -87,7 +87,7 @@
             // 
             // openFlagEditor
             // 
-            this.openFlagEditor.AccessibleName = "Open Flag Editor";
+            this.openFlagEditor.AccessibleName = "Open FFlag Editor";
             this.openFlagEditor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.openFlagEditor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.openFlagEditor.Location = new System.Drawing.Point(11, 189);
@@ -95,7 +95,7 @@
             this.openFlagEditor.Name = "openFlagEditor";
             this.openFlagEditor.Size = new System.Drawing.Size(142, 23);
             this.openFlagEditor.TabIndex = 15;
-            this.openFlagEditor.Text = "Edit Fast Flags";
+            this.openFlagEditor.Text = "Edit FFlags";
             this.openFlagEditor.UseVisualStyleBackColor = true;
             this.openFlagEditor.Click += new System.EventHandler(this.editFVariables_Click);
             // 
@@ -133,7 +133,7 @@
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(176, 88);
             this.title.TabIndex = 20;
-            this.title.Text = "Roblox Studio\r\nMod Manager";
+            this.title.Text = "RSMM\r\n(F)";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // targetVersion
@@ -194,7 +194,7 @@
             this.MaximizeBox = false;
             this.Name = "Launcher";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Roblox Studio Mod Manager";
+            this.Text = "RSMM";
             this.Load += new System.EventHandler(this.Launcher_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.ResumeLayout(false);

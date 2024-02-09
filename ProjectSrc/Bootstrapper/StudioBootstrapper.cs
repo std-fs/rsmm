@@ -29,8 +29,8 @@ namespace RobloxStudioModManager
         private static string AppSettings_XML;
         private static string OAuth2Config_JSON;
 
-        private const string UserAgent = "RobloxStudioModManager";
-        public const string StartEvent = "RobloxStudioModManagerStart";
+        private const string UserAgent = "RSMM";
+        public const string StartEvent = "RSMMStart";
 
         public event MessageFeed EchoFeed;
         public event MessageFeed StatusFeed;
